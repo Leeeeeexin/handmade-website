@@ -1,0 +1,92 @@
+body {
+  background-color: #FFE8F3;
+  font-family: ronda light;
+  color: #F04657;
+  font-size: 50px;
+}
+
+.container {
+  padding-top: 100px;
+  padding-bottom: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 90vh;
+}
+
+.item {
+margin-left:3.7%;
+margin-right:3.7%;
+padding-left:0.5%;
+padding-right:0.5%;
+}
+
+@keyframes clockspin {
+  0% {
+    transform: rotate(0turn);
+  }
+  50% {
+    transform: rotate(0.5turn);
+  }  
+  100% {
+    transform: rotate(1turn);
+  }
+}
+
+@keyframes hideshow {
+  0% { opacity: 1; }
+  10% { opacity: 1; }
+  15% { opacity: 0; }
+  100% { opacity: 0; }
+} 
+
+#clock { 
+animation: clockspin 10s linear infinite;
+height:600px;
+}
+
+#clock:hover {
+    animation-play-state: paused;
+  }
+
+
+
+
+.t1 {
+  animation: hideshow 5s ease infinite;
+}
+.t2 {
+  opacity: 0;
+  animation: hideshow 5s 1.5s ease infinite;
+}
+.t3 {
+  opacity: 0;
+  animation: hideshow 5s 3s ease infinite;
+}
+
+
+
+
+
+
+#circle { 
+    display: block;
+    margin-left: auto;
+    margin-right: auto 
+    z-index:2;
+}
+
+#still { 
+    display: block;
+    margin-left: auto;
+    margin-right: auto 
+    z-index:1;
+}
+
+#color { 
+    display: block;
+    margin-left: auto;
+    margin-right: auto 
+    z-index:0;
+}

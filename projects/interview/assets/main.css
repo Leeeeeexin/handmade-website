@@ -1,0 +1,98 @@
+body{
+	background-color: yellow;
+}
+h1{
+	color:red; font-family: Arial, Helvetica, sans-serif;
+}
+
+.question-container1{
+color: blue;
+  background: beige;
+  border: 1px solid blue;
+  margin: 10px;
+  padding: 5px;
+  font-family: monospace;
+  font-size: 24px;
+}
+ 
+
+.question1{
+color: blue;
+background: beige;
+border: 3px solid blue;
+padding: 5px;
+font-family: monospace;
+font-size: 24px;
+}         
+.answer1{
+color: blue;
+background: beige;
+border: 1px solid blue;
+padding: 5px;
+font-family: monospace;
+font-size: 24px;
+}
+
+
+.question-container2{
+color: blue;
+  border: 5px dashed aqua;
+  margin: 10px;
+  padding: 5px;
+  font-family: monospace;
+  font-size: 24px;
+}
+
+.question2{
+color: blue;
+border: 3px solid aqua;
+padding: 5px;
+font-family: monospace;
+font-size: 24px;
+}         
+.answer2{
+color: blue;
+border: 1px solid aqua;
+padding: 5px;
+font-family: monospace;
+font-size: 24px;
+}  
+.Xin1{
+background: pink;
+} 
+.france {
+  float: left;
+  width: 3em;
+  font-size: 80%;
+  font-family: algerian, courier;
+  line-height: 80%;
+}   
+
+
+.question-container3{
+color: blue;
+  background: beige;
+  border: 1px solid blue;
+  margin: 10px;
+  padding: 5px;
+  font-family: monospace;
+  font-size: 24px;
+}
+    
+.question3{
+color: blue;
+background: beige;
+border: 20px solid blue;
+padding: 10px;
+font-family: monospace;
+font-size: 20px;
+}         
+.answer3{
+color: blue;
+background: beige;
+border: 1px solid blue;
+padding: 20px;
+font-family: monospace;
+font-size: 20px;
+}
+     

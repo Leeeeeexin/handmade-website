@@ -1,0 +1,15 @@
+body {
+  font-family: Monospac821 BT, sans-serif;
+  margin: 2em; background: black;
+}
+
+.container {
+overflow: auto;
+white-space: nowrap;
+}
+
+
+img {
+  max-width: 25%;
+  margin-right:0;
+}

@@ -1,0 +1,249 @@
+/*
+  Coding from Life – Sketch 2: fluid layout
+
+  For sketch 2 you'll be positioning elements relative to a fluid container. This
+  means you'll need to use percentages when positioning and sizingelements within
+  your frame.
+*/
+
+
+body {
+  background-color: black;
+}
+
+.frame {
+  width: 95vw;
+  height: 57vw;
+  background: white;
+  margin: 2.5vw auto;
+  position: relative;
+}
+
+/* Your CSS goes here */
+
+.vase{position: absolute;
+width: 4.9%;
+height: 30%;
+left: 53.6%;
+top: 47.6%;
+
+z-index: 1;
+background: #597585;
+border: 2px solid #000000;
+box-sizing: border-box;
+opacity: 0.5;
+}
+
+.vasebase{position: absolute;
+width: 0.5%;
+height: 11.5%;
+left: 53%;
+top: 65%;
+border-left: 3% solid transparent;
+border-right: 3% solid transparent;
+border-bottom: 5% solid#597585;
+
+z-index: 2;
+opacity: 0.5;
+}
+
+.p1{position: absolute;
+width: 17.6%;
+height: 28.6%;
+left: 69.4%;
+top: 53.6%;
+border-radius: 50%;
+
+background: #FE5D03;
+z-index: 1;
+}
+
+.p2{position: absolute;
+width: 3.6%;
+height: 5%;
+left: 76.4%;
+top: 50%;
+
+background: #92CC2E;
+z-index: 1;
+}
+
+.c0{position: absolute;
+width: 0;
+height: 3.33%;
+left: 39%;
+top: 40.3%;
+
+border: 2px solid #000000;
+z-index: 1;
+}
+
+.c1{position: absolute;
+width: 1.4%;
+height: 12.5%;
+left: 38.5%;
+top: 43.5%;
+
+background: #C2C2C2;
+z-index: 1;
+}
+
+.c2{position: absolute;
+width: 2.6%;
+height: 12.5%;
+left: 37.9%;
+top: 56%;
+
+background: #CF9604;
+z-index: 1;
+}
+
+.c3{position: absolute;
+width: 0.4%;
+height: 16.6%;
+left: 39%;
+top: 68.5%;
+
+background: #FFB801;
+z-index: 1;
+}
+
+.c4{position: absolute;
+width: 1%;
+height: 11%;
+left: 38.4%;
+top: 80%;
+
+background: #FFB801;
+transform: rotate(-90deg);
+z-index: 1;
+}
+
+
+.pt1{position: absolute;
+width: 16.1%;
+height: 24%;
+left: 12%;
+top: 58.3%;
+border-radius: 20%;
+
+background: #672300;
+z-index: 1;
+}
+
+.pt2{position: absolute;
+width: 18.9%;
+height: 1.83%;
+left: 10.6%;
+top: 58.3%;
+
+background: #672300;
+z-index: 1;
+}
+
+.pt3{position: absolute;
+width: 14.3%;
+height: 2.33%;
+left: 12.9%;
+top: 56%;
+
+background: #CB7D54;
+z-index: 1;
+}
+
+.pt4{position: absolute;
+width: 1.7%;
+height: 2.33%;
+left: 19.2%;
+top: 53.6%;
+
+background: #672300;
+z-index: 1;
+}
+
+
+
+.f1{position: absolute;
+border-radius: 50%;
+width: 3.6%;
+height: 6%;
+left: 55.2%;
+top: 30.16%;
+background: #FE0303;
+z-index: 1;
+} 
+
+
+.f2{position: absolute;
+border-radius: 50%;
+width: 3.6%;
+height: 6%;
+left: 52.9%;
+top: 35.16%;
+
+background: #D00101;
+z-index: 1;
+}
+
+
+
+.f3{position: absolute;
+  border-radius: 50%;
+width: 3.6%;
+height: 6%;
+left: 54.3%;
+top: 39.16%;
+
+background: #FF7474;
+z-index: 1;
+}
+
+
+.g1{position: absolute;
+width: 0;
+height: 41.8%;
+left: 57%;
+top: 35.16%;
+
+border: 4px solid #92CC2E;
+z-index: 0;
+}
+
+.g2{position: absolute;
+width: 0;
+height: 33.5%;
+left: 54.7%;
+top: 40.3%;
+
+border: 4px solid #92CC2E;
+z-index: 0;
+}
+
+.g3{position: absolute;
+width: 0;
+height: 23.16%;
+left: 56%;
+top: 45.16%;
+
+border: 3px solid #92CC2E;
+z-index: 0;
+}
+
+
+
+
+.table{
+position: absolute;
+width: 100%;
+height: 28%;
+left: 0;
+top: 72%;
+
+z-index: 0;
+
+background: #C4C4C4;
+}
+
+
+
+

@@ -1,0 +1,232 @@
+ body {
+background-color: black;
+margin: 0;
+}
+
+/*.container{
+  width:100vw;
+  height:100vh;
+  flex-wrap: nowrap;
+}*/
+
+
+
+
+/*building*/
+.building {
+width:100vw;
+right:0pt;
+z-index:1;
+ }
+
+.b3{
+fill-opacity:1;
+transition-property: width;
+transition-duration: 2s;
+transition-delay: 2s;
+transition-property:background-color;
+}
+.b3:hover{
+width:200pt;
+fill-opacity:0.5;
+background-color:red;
+}
+
+.b4{
+fill-opacity:1;
+}
+.b4:hover{
+fill-opacity:0.5;
+}
+
+.b5{
+fill-opacity:1;
+}
+.b5:hover{
+fill-opacity:0.3;
+}
+
+.b6{
+fill-opacity:1;
+}
+.b6:hover{
+fill-opacity:0;
+}
+
+.b7{
+fill-opacity:1;
+}
+.b7:hover{
+fill-opacity:0.2;
+}
+
+.b8{
+fill-opacity:1;
+}
+.b8:hover{
+fill-opacity:0.1;
+}
+
+.b8-1{
+opacity:0.3
+}
+
+.b9{
+fill-opacity:1;
+}
+.b9:hover{
+fill-opacity:0.5;
+}
+
+.b10{
+fill-opacity:1;
+}
+.b10:hover{
+fill-opacity:0.3;
+}
+
+.b11{
+ background-color: white;
+}
+.b11:hover{
+background-color:black;
+}
+
+.b12{
+fill-opacity:1;
+}
+.b12:hover{
+fill-opacity:0;
+}
+
+.b13{
+fill-opacity:1;
+}
+.b13:hover{
+fill-opacity:0.8;
+}
+
+.b14{
+fill-opacity:1;
+}
+.b14:hover{
+fill-opacity:0.3;
+}
+
+.b15{
+fill-opacity:1;
+}
+.b15:hover{
+fill-opacity:0;
+}
+
+@keyframes hideshow {
+  0% {opacity: 1;}
+  25% {opacity: 0.8;}
+  50% {opacity: 0.5;}
+  100% {opacity: 0;}
+} 
+.b16{
+  animation: hideshow 2s ease infinite;
+}
+.b17{
+  animation: hideshow 3s ease infinite;
+}
+.b18{
+  animation: hideshow 1s ease infinite;
+}
+.b19{
+  animation: hideshow 2s ease infinite;
+}
+.b20{
+  animation: hideshow 1s ease infinite;
+}
+.b21{
+  animation: hideshow 3s ease infinite;
+}
+.b22{
+  animation: hideshow 1s ease infinite;
+}
+.b23{
+  animation: hideshow 1.7s ease infinite;
+}
+.b24{
+  animation: hideshow 2.8s ease infinite;
+}
+.b27{
+  animation: hideshow 1s ease infinite;
+}
+.b31{
+  animation: hideshow 4s ease infinite;
+}
+
+.b25{
+fill-opacity:1;
+}
+.b25:hover{
+fill-opacity:0;
+}
+
+.b26{
+fill-opacity:1;
+}
+.b26:hover{
+fill-opacity:0;
+}
+
+.b28{
+fill-opacity:1;
+}
+.b28:hover{
+fill-opacity:0;
+}
+
+.b29{
+fill-opacity:1;
+}
+.b29:hover{
+fill-opacity:0;
+}
+
+.b30{
+fill-opacity:1;
+}
+.b30:hover{
+fill-opacity:0.5;
+}
+
+.b32{
+fill-opacity:1;
+}
+.b32:hover{
+fill-opacity:0.1;
+}
+
+
+/*words*/
+.words{
+position: absolute;
+width: 100vw;
+left: 0px;
+top: 0px;
+z-index:10;
+}
+
+
+
+.sky img {
+position: absolute;
+width: 100vw;
+height: 2700%;
+left: 0px;
+top: 0px;
+
+z-index:-1;
+}
+
+
+
+
+
+
+

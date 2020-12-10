@@ -1,0 +1,315 @@
+/* CSS files add styling rules to your content */
+body {
+  background-color:black;
+}
+
+.frame {
+  width: 1000px;
+  height: 600px;
+  background: white;
+  margin: 30px auto;
+  position: relative;
+}
+
+/* Your CSS goes here */
+
+
+.word{position: absolute;
+  left: 280px;
+  top: 50px;
+  color:white;
+  font-size:50px;
+  
+  z-index:5;
+}
+
+
+.vase{position: absolute;
+width: 49px;
+height: 181px;
+left: 536px;
+top: 286px;
+
+z-index: 1;
+background: #597585;
+border: 2px solid #000000;
+box-sizing: border-box;
+opacity: 0.5;
+}
+
+.vasebase{position: absolute;
+width: 5px;
+height: 69px;
+left: 530px;
+top: 390px;
+border-left: 30px solid transparent;
+border-right: 30px solid transparent;
+border-bottom: 50px solid#597585;
+
+z-index: 2;
+opacity: 0.5;
+}
+
+
+.p1{position: absolute;
+width: 176px;
+height: 172px;
+left: 694px;
+top: 322px;
+border-radius: 50%;
+
+background: #FE5D03;
+z-index: 1;
+}
+
+.p2{position: absolute;
+width: 36px;
+height: 30px;
+left: 764px;
+top: 300px;
+
+background: #92CC2E;
+z-index: 1;
+}
+
+.pumpkin {
+transition: all 3s ease;
+  z-index: 1;
+}
+
+.pumpkin:hover {
+  -webkit-transform: scale(1);
+  transform:  scale(1.5);
+  cursor: pointer;
+  z-index: 1;
+}
+
+.c0{position: absolute;
+width: 0px;
+height: 20px;
+left: 390px;
+top: 242px;
+
+border: 2px solid #000000;
+z-index: 4;
+}
+
+.c0:hover {
+position: absolute;
+width: 0px;
+height: 20px;
+left: 390px;
+top: 242px;
+background-color:#FFB801;
+-webkit-transform: scale(2);
+  
+z-index:4
+}
+
+.c0:hover {
+  width: 1000px;
+  height: 600px;
+  background: black;
+  margin: 30px auto;
+  position: relative;
+  cursor: pointer;
+  
+  z-index:3
+}
+
+.c1{position: absolute;
+width: 14px;
+height: 75px;
+left: 385px;
+top: 261px;
+
+background: #C2C2C2;
+z-index: 1;
+}
+
+.c2{position: absolute;
+width: 26px;
+height: 75px;
+left: 379px;
+top: 336px;
+
+background: #CF9604;
+z-index: 1;
+}
+
+.c3{position: absolute;
+width: 4px;
+height: 100px;
+left: 390px;
+top: 411px;
+
+background: #FFB801;
+z-index: 1;
+}
+
+.c4{position: absolute;
+width: 10px;
+height: 66px;
+left: 384px;
+top: 480px;
+
+background: #FFB801;
+transform: rotate(-90deg);
+z-index: 1;
+}
+
+
+.pt1{position: absolute;
+width: 161px;
+height: 144px;
+left: 120px;
+top: 350px;
+border-radius: 20%;
+
+background: #672300;
+z-index: 1;
+}
+
+.pt2{position: absolute;
+width: 189px;
+height: 11px;
+left: 106px;
+top: 350px;
+
+background: #672300;
+z-index: 1;
+}
+
+.pt3{position: absolute;
+width: 143px;
+height: 14px;
+left: 129px;
+top: 336px;
+
+background: #CB7D54;
+z-index: 1;
+}
+
+
+.pt4{position: absolute;
+width: 17px;
+height: 14px;
+left: 192px;
+top: 322px;
+
+background: #672300;
+z-index: 1;
+}
+
+.ptmove:hover {
+    -webkit-transform: rotate(5deg);
+  cursor: pointer;
+}
+
+
+
+.f1{position: absolute;
+border-radius: 50%;
+width: 36px;
+height: 36px;
+left: 552px;
+top: 181px;
+background: #FE0303;
+z-index: 1;
+} 
+
+
+.f2{position: absolute;
+border-radius: 50%;
+width: 36px;
+height: 36px;
+left: 529px;
+top: 211px;
+
+background: #D00101;
+z-index: 1;
+}
+
+
+.f3{position: absolute;
+	border-radius: 50%;
+width: 36px;
+height: 36px;
+left: 543px;
+top: 235px;
+
+background: #FF7474;
+z-index: 1;
+}
+
+.fmove:hover {
+  cursor: pointer;
+  background: linear-gradient(270deg, #ff00f5, #ffd736, #f2a4ff, #6bf51d, #06e854);
+  background-size: 1000% 1000%;
+
+  -webkit-animation: slideBackground 2s ease infinite;
+  -moz-animation: slideBackground 2s ease infinite;
+  animation: slideBackground 2s ease infinite;
+}
+
+    @-webkit-keyframes slideBackground {
+        0%{background-position:0% 50%}
+        50%{background-position:100% 50%}
+        100%{background-position:0% 50%}
+    }
+    @-moz-keyframes slideBackground {
+        0%{background-position:0% 50%}
+        50%{background-position:100% 50%}
+        100%{background-position:0% 50%}
+    }
+    @keyframes slideBackground {
+        0%{background-position:0% 50%}
+        50%{background-position:100% 50%}
+        100%{background-position:0% 50%}
+    }
+    
+
+.g1{position: absolute;
+width: 0px;
+height: 251px;
+left: 570px;
+top: 211px;
+
+border: 4px solid #92CC2E;
+z-index: 0;
+}
+
+.g2{position: absolute;
+width: 0px;
+height: 201px;
+left: 547px;
+top: 242px;
+
+border: 4px solid #92CC2E;
+z-index: 0;
+}
+
+.g3{position: absolute;
+width: 0px;
+height: 139px;
+left: 560px;
+top: 271px;
+
+border: 3px solid #92CC2E;
+z-index: 0;
+}
+
+
+
+
+.table{
+position: absolute;
+width: 1000px;
+height: 168px;
+left: 0px;
+top: 432px;
+
+z-index: 0;
+
+background: #C4C4C4;
+}
